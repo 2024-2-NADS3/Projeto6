@@ -1,2 +1,2 @@
-# Projeto6
-Projeto 6
+# FitSync
+FitSync
