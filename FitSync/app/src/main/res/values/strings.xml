@@ -2,5 +2,7 @@
     <string name="app_name">FitSync</string>
 
     <string name="entrar">Entrar</string>
-    <string name="text_cadastro">Sua Jornada de Nutrição e Treino, Sincronizada com Sucesso!</string>
+    <string name="text_slogan">Sua Jornada de Nutrição e Treino, Sincronizada com Sucesso!</string>
+    <string name="text_register"><u>É novo? Crie uma conta!</u></string>
+    <string name="cadastro">Cadastre-se</string>
 </resources>
