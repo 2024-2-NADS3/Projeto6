@@ -2,17 +2,10 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config>
-        <device id="pixel_5" />
-      </config>
+      <config />
     </shared>
     <layouts>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_form_login.xml">
-        <config>
-          <theme>@style/Theme.FitSync</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
         <config>
           <theme>@style/Theme.FitSync</theme>
         </config>
@@ -23,7 +16,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad2f01a-ed09-4db6-a919-d8323ac88e89" name="Changes" comment="" />
+    <list default="true" id="de39c1c8-3c02-478f-87a3-6ad73329466e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,42 +69,25 @@
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="valueResourceFile" />
-        <option value="resourceFile" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2lU7uGRnOVmncUkTAME0mL00Sfv" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2noQvWhfis91VWWtNV8yLf3pjG4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Android App.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gamer/Desktop/CalcImc"
+    "last_opened_file_path": "C:/Users/gamer/Desktop/FitSync"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\res\drawable" />
-    </key>
-    <key name="android.template.-1384403061">
-      <recent name="com.br.Ft.fitsync" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="FitSync.app.main" />
@@ -183,11 +159,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aad2f01a-ed09-4db6-a919-d8323ac88e89" name="Changes" comment="" />
-      <created>1725223021535</created>
+      <changelist id="de39c1c8-3c02-478f-87a3-6ad73329466e" name="Changes" comment="" />
+      <created>1729637179704</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725223021535</updated>
+      <updated>1729637179704</updated>
     </task>
     <servers />
   </component>
