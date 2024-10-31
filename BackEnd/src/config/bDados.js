@@ -1,13 +1,25 @@
-const { Sequelize } = require('sequelize');
+// src/config/database.js
+const mysql = require('mysql2');
 
-// Conectando ao banco de dados MySQL
-const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
-  host: process.env.DB_HOST,
-  dialect: 'mysql',
+// Configurações do banco de dados
+const connection = mysql.createConnection({
+    host: 'bd-fitsync.mysql.database.azure.com',
+    user: 'vini',
+    password: '20012005Mae',
+    database: 'fitsync',
+    port: 3306,
+    ssl: {
+        rejectUnauthorized: false // Adicione esta linha para ignorar erros de autorização
+    }
 });
 
-sequelize.authenticate()
-  .then(() => console.log('Conectado ao MySQL'))
-  .catch((err) => console.log('Erro ao conectar ao MySQL:', err));
+// Conectar ao banco de dados
+connection.connect((err) => {
+    if (err) {
+        console.error('Erro ao conectar ao banco de dados: ' + err.stack);
+        return;
+    }
+    console.log('Conectado ao banco de dados MySQL como id ' + connection.threadId);
+});
 
-module.exports = sequelize;
+module.exports = connection; // Exporte a conexão

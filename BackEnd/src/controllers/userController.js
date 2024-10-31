@@ -1,55 +1,64 @@
-const User = require('../models/userModel');
+// controllers/userController.js
 const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
+const connection = require('../config/bDados');
 
-// Registrar usuário
 const registerUser = async (req, res) => {
-  const { name, email, password } = req.body;
+    const { name, email, password } = req.body;
 
-  // Verificar se o usuário já existe
-  const userExists = await User.findOne({ where: { email } });
-  if (userExists) {
-    return res.status(400).json({ message: 'Usuário já cadastrado' });
-  }
-
-  // Criptografar a senha
-  const hashedPassword = await bcrypt.hash(password, 10);
-
-  // Criar novo usuário
-  const user = await User.create({ name, email, password: hashedPassword });
-  if (user) {
-    return res.status(201).json({ 
-      _id: user.id, 
-      name: user.name, 
-      email: user.email,
-      token: generateToken(user.id),
-    });
-  } else {
-    res.status(400).json({ message: 'Erro ao criar usuário' });
-  }
+    try {
+        const hashedPassword = await bcrypt.hash(password, 10);
+        const query = 'INSERT INTO usuarios (email, senha) VALUES (?, ?)';
+        connection.query(query, [email, hashedPassword], (error, results) => {
+            if (error) {
+                return res.status(500).json({ message: 'Erro ao cadastrar usuário', error });
+            }
+            res.status(201).json({ message: 'Usuário cadastrado com sucesso!', userId: results.insertId });
+        });
+    } catch (error) {
+        res.status(500).json({ message: 'Erro ao cadastrar usuário', error });
+    }
 };
 
-// Login de usuário
 const loginUser = async (req, res) => {
-  const { email, password } = req.body;
+    const { email, password } = req.body;
 
-  // Verificar se o usuário existe
-  const user = await User.findOne({ where: { email } });
-  if (user && (await bcrypt.compare(password, user.password))) {
-    res.json({ 
-      _id: user.id, 
-      name: user.name, 
-      email: user.email,
-      token: generateToken(user.id),
+    const query = 'SELECT * FROM usuarios WHERE email = ?';
+    connection.query(query, [email], async (error, results) => {
+        if (error) {
+            return res.status(500).json({ message: 'Erro ao realizar login', error });
+        }
+        if (results.length === 0) {
+            return res.status(404).json({ message: 'Usuário não encontrado' });
+        }
+
+        const user = results[0];
+        const isPasswordValid = await bcrypt.compare(password, user.senha);
+        if (!isPasswordValid) {
+            return res.status(401).json({ message: 'Senha inválida' });
+        }
+
+        res.status(200).json({ message: 'Login realizado com sucesso', userId: user.id });
     });
-  } else {
-    res.status(400).json({ message: 'Credenciais inválidas' });
-  }
 };
 
-// Gerar token JWT
-const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: '30d' });
+const resetPassword = async (req, res) => {
+    const { email, newPassword } = req.body;
+
+    try {
+        const hashedPassword = await bcrypt.hash(newPassword, 10);
+        const query = 'UPDATE usuarios SET senha = ? WHERE email = ?';
+        connection.query(query, [hashedPassword, email], (error, results) => {
+            if (error) {
+                return res.status(500).json({ message: 'Erro ao resetar senha', error });
+            }
+            if (results.affectedRows === 0) {
+                return res.status(404).json({ message: 'Usuário não encontrado' });
+            }
+            res.status(200).json({ message: 'Senha resetada com sucesso' });
+        });
+    } catch (error) {
+        res.status(500).json({ message: 'Erro ao resetar senha', error });
+    }
 };
 
-module.exports = { registerUser, loginUser };
+module.exports = { registerUser, loginUser, resetPassword };
