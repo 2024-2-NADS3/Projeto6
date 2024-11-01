@@ -8,9 +8,9 @@
 
 ## Nome do Grupo
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="https://www.linkedin.com/in/sergio-pedote/">Sérgio Ricardo Pedote Jr</a>, <a href="https://www.linkedin.com/in/vinipiovesan/">Vinicius Miranda A Piovesan</a>, <a href="https://www.linkedin.com/in/matheus-de-medeiros-5516a02a9/">Matheus de Medeiros</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: ## Professores Orientadores: <a href="https://www.linkedin.com/in/jefferson-o-silva/">Jefferson Silva</a>, <a href="https://www.linkedin.com/in/vheltai/">Vinicius Heltai</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>, <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Martins</a>.
 
 ## Descrição
 
@@ -29,20 +29,26 @@ May the force be with you!
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
-|<br>
 |-->documentos<br>
   &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
+  
 |-->executáveis<br>
   &emsp;|-->windows<br>
   &emsp;|-->android<br>
   &emsp;|-->HTML<br>
+  
 |-->imagens<br>
+  &emsp;|-->Bootstrap_5.0_Screenshot.png<br>
+
 |-->src<br>
   &emsp;|-->Backend<br>
+  &emsp;|Colocar os códigos do Backend Aqui.txt<br>
+  &emsp;|DiagramaModeloBD.png<br>
+  &emsp;|ProjetoBD.sql<br>
+  
   &emsp;|-->Frontend<br>
-|readme.md<br>
+  &emsp;|Colocar os códigos do Frontend Aqui.txt<br>
+  
 
 A pasta raiz contem dois arquivos que devem ser alterados:
 
