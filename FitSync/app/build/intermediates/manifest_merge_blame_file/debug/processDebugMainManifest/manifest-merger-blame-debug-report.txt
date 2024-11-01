@@ -8,129 +8,204 @@
 8        android:minSdkVersion="24"
 9        android:targetSdkVersion="34" />
 10
-11    <permission
-11-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.br.Ft.fitsync.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+11    <!-- Permissão necessária para acessar o sensor de passos -->
+12    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+12-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:7:22-64
 14
-15    <uses-permission android:name="com.br.Ft.fitsync.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:5:5-27:19
-18        android:allowBackup="true"
-18-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="@string/app_name"
-25-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:10:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:11:9-54
-27        android:supportsRtl="true"
-27-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:12:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.FitSync" >
-29-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:13:9-45
-30        <activity
-30-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:15:9-17:40
-31            android:name="com.br.Ft.fitsync.MainActivity"
-31-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:16:13-41
-32            android:exported="false" />
-32-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:17:13-37
-33        <activity
-33-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:18:9-26:20
-34            android:name="com.br.Ft.fitsync.FormLogin"
-34-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:19:13-38
-35            android:exported="true" >
-35-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:20:13-36
-36            <intent-filter>
-36-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:21:13-25:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:22:17-69
-37-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:22:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:24:17-77
-39-->C:\Users\gamer\AndroidStudioProjects\FitSync2\app\src\main\AndroidManifest.xml:24:27-74
-40            </intent-filter>
-41        </activity>
-42
-43        <provider
-43-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-44            android:name="androidx.startup.InitializationProvider"
-44-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-45            android:authorities="com.br.Ft.fitsync.androidx-startup"
-45-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-46            android:exported="false" >
-46-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-47            <meta-data
-47-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-48-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-49                android:value="androidx.startup" />
-49-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-50            <meta-data
-50-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gamer\.gradle\caches\transforms-4\b202ac154fdbd6cc385890ed0d302cc2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-51-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gamer\.gradle\caches\transforms-4\b202ac154fdbd6cc385890ed0d302cc2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-52                android:value="androidx.startup" />
-52-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gamer\.gradle\caches\transforms-4\b202ac154fdbd6cc385890ed0d302cc2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-53            <meta-data
-53-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-54                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-54-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-55                android:value="androidx.startup" />
-55-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-56        </provider>
-57
-58        <receiver
-58-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-59            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-59-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-60            android:directBootAware="false"
-60-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-61            android:enabled="true"
-61-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-62            android:exported="true"
-62-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-63            android:permission="android.permission.DUMP" >
-63-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-64            <intent-filter>
-64-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-65                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-65-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-65-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-66            </intent-filter>
-67            <intent-filter>
-67-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-68                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-69            </intent-filter>
-70            <intent-filter>
-70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-71                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-72            </intent-filter>
-73            <intent-filter>
-73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-74                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+15    <permission
+15-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.br.Ft.fitsync.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.br.Ft.fitsync.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:9:5-65:19
+22        android:allowBackup="true"
+22-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:11:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.13.0] C:\Users\gamer\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:12:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:13:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:14:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:15:9-41
+30        android:networkSecurityConfig="@xml/network_security_config"
+30-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:10:9-69
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:17:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.FitSync" >
+34-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:18:9-45
+35        <activity
+35-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:21:9-23:40
+36            android:name="com.br.Ft.fitsync.LancheActivity"
+36-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:22:13-43
+37            android:exported="false" />
+37-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:23:13-37
+38        <activity
+38-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:24:9-26:40
+39            android:name="com.br.Ft.fitsync.SuplementosActivity"
+39-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:25:13-48
+40            android:exported="false" />
+40-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:26:13-37
+41        <activity
+41-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:27:9-29:40
+42            android:name="com.br.Ft.fitsync.CafeActivity"
+42-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:28:13-41
+43            android:exported="false" />
+43-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:29:13-37
+44        <activity
+44-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:30:9-32:40
+45            android:name="com.br.Ft.fitsync.RefeicaoActivity"
+45-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:31:13-45
+46            android:exported="false" />
+46-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:32:13-37
+47        <activity
+47-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:33:9-35:40
+48            android:name="com.br.Ft.fitsync.LegsActivity"
+48-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:34:13-41
+49            android:exported="false" />
+49-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:35:13-37
+50        <activity
+50-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:36:9-38:40
+51            android:name="com.br.Ft.fitsync.ArmsActivity"
+51-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:37:13-41
+52            android:exported="false" />
+52-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:38:13-37
+53        <activity
+53-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:39:9-41:40
+54            android:name="com.br.Ft.fitsync.ChestActivity"
+54-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:40:13-42
+55            android:exported="false" />
+55-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:41:13-37
+56        <activity
+56-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:42:9-44:40
+57            android:name="com.br.Ft.fitsync.TreinoBack"
+57-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:43:13-39
+58            android:exported="false" />
+58-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:44:13-37
+59        <activity
+59-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:45:9-47:40
+60            android:name="com.br.Ft.fitsync.Register"
+60-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:46:13-37
+61            android:exported="false" />
+61-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:47:13-37
+62        <activity
+62-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:48:9-50:40
+63            android:name="com.br.Ft.fitsync.MainActivity"
+63-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:49:13-41
+64            android:exported="false" />
+64-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:50:13-37
+65        <activity
+65-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:51:9-53:40
+66            android:name="com.br.Ft.fitsync.FormLogin"
+66-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:52:13-38
+67            android:exported="false" />
+67-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:53:13-37
+68        <activity
+68-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:54:9-61:20
+69            android:name="com.br.Ft.fitsync.SplashActivity"
+69-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:55:13-43
+70            android:exported="true" >
+70-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:56:13-36
+71            <intent-filter>
+71-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:57:13-60:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:58:17-69
+72-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:58:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:59:17-77
+74-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:59:27-74
 75            </intent-filter>
-76        </receiver>
-77    </application>
-78
-79</manifest>
+76        </activity>
+77
+78        <!-- Receiver para redefinir a contagem de passos à meia-noite -->
+79        <receiver android:name="com.br.Ft.fitsync.MidnightResetReceiver" />
+79-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:64:9-59
+79-->C:\Users\gamer\Desktop\FitSync\app\src\main\AndroidManifest.xml:64:19-56
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+83            android:authorities="com.br.Ft.fitsync.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\gamer\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gamer\.gradle\caches\transforms-4\b202ac154fdbd6cc385890ed0d302cc2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gamer\.gradle\caches\transforms-4\b202ac154fdbd6cc385890ed0d302cc2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gamer\.gradle\caches\transforms-4\b202ac154fdbd6cc385890ed0d302cc2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+93                android:value="androidx.startup" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+94        </provider>
+95
+96        <receiver
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+98            android:directBootAware="false"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+99            android:enabled="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+100            android:exported="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+101            android:permission="android.permission.DUMP" >
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\gamer\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+113            </intent-filter>
+114        </receiver>
+115    </application>
+116
+117</manifest>

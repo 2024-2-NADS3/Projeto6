@@ -1,15 +1,203 @@
 [
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_cadeira_extensora.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\cadeira_extensora.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_arms.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\arms.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_kcal.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\kcal.png"
+    },
+    {
         "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_button.xml.flat",
         "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_fragment_dieta.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\fragment_dieta.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_chest.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_chest.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_frango.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\frango.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_verao.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\verao.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_ic_logo.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_distancia.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\distancia.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_supino_inclinado.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\supino_inclinado.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_button_back.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\button_back.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_form_login.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_form_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_ic_dieta.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\ic_dieta.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_remada_cavalo.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\remada_cavalo.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_supino_reto.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\supino_reto.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_omega3.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\omega3.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_treino_back.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_treino_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_ic_treino.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\ic_treino.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_rosca_martelo.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\rosca_martelo.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_remada_baixa.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\remada_baixa.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_refeicao.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_refeicao.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_legpress.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\legpress.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_container_components.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\container_components.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_triceps_polia.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\triceps_polia.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_background.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\background.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_chest.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\chest.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_multi.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\multi.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_card_lanche.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\card_lanche.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_ic_eye.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\ic_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_wheyp.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\wheyp.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_agachamento.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\agachamento.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_card_cafe.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\card_cafe.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_tenis_corrida.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\tenis_corrida.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_back.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_arms.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_arms.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_dieta2.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\dieta2.png"
     },
     {
         "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -24,83 +212,139 @@
         "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\xml\\data_extraction_rules.xml"
+        "merged": "com.br.Ft.fitsync.app-debug-31:/xml_network_security_config.xml.flat",
+        "source": "com.br.Ft.fitsync.app-main-33:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_splash.xml"
     },
     {
         "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_ic_email.xml.flat",
         "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\ic_email.xml"
     },
     {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_suplementos.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_suplementos.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_register.xml"
+    },
+    {
         "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_fitsync.png.flat",
         "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\fitsync.png"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_form_login.xml.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_form_login.xml"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_circular_progress.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\circular_progress.xml"
     },
     {
         "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_crossover.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\crossover.png"
     },
     {
         "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_crucifixo.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\crucifixo.png"
+    },
+    {
         "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_edit_text.xml.flat",
         "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\edit_text.xml"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_rosca_direta.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\rosca_direta.png"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_card_dieta.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\card_dieta.png"
     },
     {
-        "merged": "com.br.Ft.fitsync.app-debug-31:/layout_activity_form_login.xml.flat",
-        "source": "com.br.Ft.fitsync.app-main-33:/layout/activity_form_login.xml"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_lanche.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_lanche.xml"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\ic_home.png"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_dieta1.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\dieta1.png"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_puxada_aberta.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\puxada_aberta.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_fragment_treino.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\fragment_treino.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_legs.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_legs.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\logo.png"
     },
     {
         "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_container_components.xml.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\container_components.xml"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_frances.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\frances.png"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_background.xml.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\background.xml"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_puxada_fechada.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\puxada_fechada.png"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_ic_eye.xml.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\ic_eye.xml"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_lanche_natural.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\lanche_natural.png"
     },
     {
-        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_card_suplemento.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\card_suplemento.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_creatina_powder.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\creatina_powder.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_stiff.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\stiff.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_ic_usuario.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\ic_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\layout_activity_cafe.xml.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\layout\\activity_cafe.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_card_refeicao.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\card_refeicao.png"
     },
     {
         "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_refresco.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\refresco.png"
+    },
+    {
+        "merged": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-debug-31:\\drawable_legs.png.flat",
+        "source": "C:\\Users\\gamer\\.gradle\\daemon\\8.7\\com.br.Ft.fitsync.app-main-33:\\drawable\\legs.png"
     }
 ]
