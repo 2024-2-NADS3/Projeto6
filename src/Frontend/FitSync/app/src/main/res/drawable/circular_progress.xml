@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fundo da barra de progresso -->
+    <item android:id="@android:id/background">
+        <shape android:shape="ring"
+            android:thicknessRatio="10"
+            android:useLevel="false">
+            <solid android:color="#D3D3D3" />
+        </shape>
+    </item>
+
+    <!-- Progresso da barra -->
+    <item android:id="@android:id/progress">
+        <shape android:shape="ring"
+            android:thicknessRatio="16"
+            android:useLevel="true">
+            <solid android:color="@color/heavy_blue" />
+        </shape>
+    </item>
+</layer-list>
