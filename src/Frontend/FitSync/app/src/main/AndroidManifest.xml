@@ -19,40 +19,40 @@
         tools:targetApi="31">
 
         <activity
-            android:name=".LancheActivity"
+            android:name="br.fecap.pi.fitsync.LancheActivity"
             android:exported="false" />
         <activity
-            android:name=".SuplementosActivity"
+            android:name="br.fecap.pi.fitsync.SuplementosActivity"
             android:exported="false" />
         <activity
-            android:name=".CafeActivity"
+            android:name="br.fecap.pi.fitsync.CafeActivity"
             android:exported="false" />
         <activity
-            android:name=".RefeicaoActivity"
+            android:name="br.fecap.pi.fitsync.RefeicaoActivity"
             android:exported="false" />
         <activity
-            android:name=".LegsActivity"
+            android:name="br.fecap.pi.fitsync.LegsActivity"
             android:exported="false" />
         <activity
-            android:name=".ArmsActivity"
+            android:name="br.fecap.pi.fitsync.ArmsActivity"
             android:exported="false" />
         <activity
-            android:name=".ChestActivity"
+            android:name="br.fecap.pi.fitsync.ChestActivity"
             android:exported="false" />
         <activity
-            android:name=".TreinoBack"
+            android:name="br.fecap.pi.fitsync.TreinoBack"
             android:exported="false" />
         <activity
-            android:name=".Register"
+            android:name="br.fecap.pi.fitsync.Register"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="br.fecap.pi.fitsync.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".FormLogin"
+            android:name="br.fecap.pi.fitsync.FormLogin"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name="br.fecap.pi.fitsync.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,7 +61,7 @@
         </activity>
 
         <!-- Receiver para redefinir a contagem de passos à meia-noite -->
-        <receiver android:name=".MidnightResetReceiver" />
+        <receiver android:name="br.fecap.pi.fitsync.MidnightResetReceiver" />
     </application>
 
 </manifest>
