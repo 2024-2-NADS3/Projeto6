@@ -97,7 +97,7 @@ Encontre o executável FitSync.exe na pasta src/Apk e execute-o normalmente.
 Web:
 Encontre o arquivo index.html na pasta src/Frontend e execute-o através de um navegador web.
 
-💻 Configuração para Desenvolvimento
+## 💻 Configuração para Desenvolvimento
 Para abrir este projeto, você necessita das seguintes ferramentas:
 
 Node.js
