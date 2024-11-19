@@ -10,7 +10,7 @@
 ## Professores Orientadores: ## Professores Orientadores: <a href="https://www.linkedin.com/in/jefferson-o-silva/">Jefferson Silva</a>, <a href="https://www.linkedin.com/in/vheltai/">Vinicius Heltai</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>, <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Martins</a>.
 
 ## Descrição
-<p align="center"> <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="FitSync" border="0"> Image by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a> </p>
+<p align="center"> <img src="https://i.imgur.com/8KWAin5.png" alt="FitSync" border="0"> <br>          Image by <a href="https://i.imgur.com/8KWAin5.png">FitSync</a><br> </p>
 
 O FitSync é um aplicativo de fitness desenvolvido para promover uma vida saudável e ativa, oferecendo dicas de treino e dieta personalizadas, além de um contador de passos que monitora as atividades diárias e calcula calorias queimadas.
 <br><br>
@@ -126,7 +126,7 @@ npm start
 Aqui estão as referências usadas no projeto.
 
 1. <https://developer.android.com/studio?hl=pt-br>
-2. <https://github.com/gabrieldejesus/readme-model>
+2. 
 3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+4. 
+5. 
