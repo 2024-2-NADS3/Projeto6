@@ -134,5 +134,4 @@ Aqui estão as referências usadas no projeto.
 1. <https://developer.android.com/studio?hl=pt-br>
 2. <https://www.figma.com/design/5lGUYYNuFEkhGQgLApn57Z/FitSync?node-id=0-1&t=Omz6gOFdsjvkBTCt-1>
 3. <https://creativecommons.org/share-your-work/>
-4. 
-5. 
+4. <https://www.mysql.com/>
